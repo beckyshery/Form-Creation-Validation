@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
     const usernameInput = document.getElementById("username.length").value.trim();
     const emailInput = document.getElementById("email").value.trim();
-    const passwordInput = document.getElementById("password").value.trim();
+    const passwordInput = document.getElementById("password.length").value.trim();
     
     let isValid = true;
     let messages = [];
